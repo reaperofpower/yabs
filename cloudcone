@@ -1,0 +1,72 @@
+
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2024-01-01                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Sun Feb 25 01:48:11 UTC 2024
+
+Basic System Information:
+---------------------------------
+Uptime     : 4 days, 19 hours, 31 minutes
+Processor  : QEMU Virtual CPU version 2.5+
+CPU cores  : 2 @ 2599.998 MHz
+AES-NI     : ❌ Disabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 1.9 GiB
+Swap       : 0.0 KiB
+Disk       : 39.2 GiB
+Distro     : Ubuntu 22.04.4 LTS
+Kernel     : 5.15.0-94-generic
+VM Type    : KVM
+IPv4/IPv6  : ✔ Online / ✔ Online
+
+IPv6 Network Information:
+---------------------------------
+ISP        : Multacom Corporation
+ASN        : AS35916 MULTACOM CORPORATION
+Host       : Multacom Corporation
+Location   : Los Angeles, California (CA)
+Country    : United States
+
+fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/vda1):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 60.83 MB/s   (15.2k) | 156.20 MB/s   (2.4k)
+Write      | 60.95 MB/s   (15.2k) | 157.03 MB/s   (2.4k)
+Total      | 121.78 MB/s  (30.4k) | 313.24 MB/s   (4.8k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 142.46 MB/s    (278) | 143.79 MB/s    (140)
+Write      | 150.02 MB/s    (293) | 153.36 MB/s    (149)
+Total      | 292.48 MB/s    (571) | 297.16 MB/s    (289)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 430 Mbits/sec   | 217 Mbits/sec   | 130 ms
+Scaleway        | Paris, FR (10G)           | busy            | 421 Mbits/sec   | 142 ms
+NovoServe       | North Holland, NL (40G)   | 429 Mbits/sec   | 420 Mbits/sec   | 142 ms
+Uztelecom       | Tashkent, UZ (10G)        | 406 Mbits/sec   | 120 Mbits/sec   | 249 ms
+Clouvider       | NYC, NY, US (10G)         | 460 Mbits/sec   | 467 Mbits/sec   | 60.1 ms
+Clouvider       | Dallas, TX, US (10G)      | 470 Mbits/sec   | 458 Mbits/sec   | 38.0 ms
+Clouvider       | Los Angeles, CA, US (10G) | 479 Mbits/sec   | 479 Mbits/sec   | 0.638 ms
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 812 Mbits/sec   | 243 Mbits/sec   | 130 ms
+Scaleway        | Paris, FR (10G)           | 814 Mbits/sec   | 418 Mbits/sec   | 133 ms
+NovoServe       | North Holland, NL (40G)   | 811 Mbits/sec   | 422 Mbits/sec   | 143 ms
+Uztelecom       | Tashkent, UZ (10G)        | 578 Mbits/sec   | 135 Mbits/sec   | 249 ms
+Clouvider       | NYC, NY, US (10G)         | 872 Mbits/sec   | 213 Mbits/sec   | 59.9 ms
+Clouvider       | Dallas, TX, US (10G)      | 895 Mbits/sec   | 311 Mbits/sec   | 37.9 ms
+Clouvider       | Los Angeles, CA, US (10G) | 916 Mbits/sec   | 472 Mbits/sec   | 0.632 ms
+
+Geekbench 6 test failed. Run manually to determine cause.
+
