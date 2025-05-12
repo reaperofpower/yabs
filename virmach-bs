@@ -1,0 +1,56 @@
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2025-04-20                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Mon May 12 01:36:59 PM UTC 2025
+
+Basic System Information:
+---------------------------------
+Uptime     : 0 days, 0 hours, 14 minutes
+Processor  : AMD Ryzen 9 3950X 16-Core Processor
+CPU cores  : 3 @ 3499.996 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ✔ Enabled
+RAM        : 1.4 GiB
+Swap       : 0.0 KiB
+Disk       : 78.2 GiB
+Distro     : Ubuntu 24.04.2 LTS
+Kernel     : 6.8.0-59-generic
+VM Type    : KVM
+IPv4/IPv6  : ✔ Online / ❌ Offline
+
+IPv4 Network Information:
+---------------------------------
+ISP        : RoyaleHosting BV
+ASN        : AS212477 RoyaleHosting BV
+Host       : Virtual Machine Solutions LLC
+Location   : Sofia, Sofia-Capital (22)
+Country    : Bulgaria
+
+fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/vda2):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 225.46 MB/s  (56.3k) | 121.24 MB/s   (1.8k)
+Write      | 226.06 MB/s  (56.5k) | 121.87 MB/s   (1.9k)
+Total      | 451.53 MB/s (112.8k) | 243.11 MB/s   (3.7k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 418.19 MB/s    (816) | 453.53 MB/s    (442)
+Write      | 440.41 MB/s    (860) | 483.73 MB/s    (472)
+Total      | 858.60 MB/s   (1.6k) | 937.27 MB/s    (914)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 869 Mbits/sec   | 368 Mbits/sec   | 71.5 ms
+Eranium         | Amsterdam, NL (100G)      | 872 Mbits/sec   | 853 Mbits/sec   | 75.5 ms
+Uztelecom       | Tashkent, UZ (10G)        | 800 Mbits/sec   | 341 Mbits/sec   | 173 ms
+Leaseweb        | Singapore, SG (10G)       | 576 Mbits/sec   | 420 Mbits/sec   | --
+Clouvider       | Los Angeles, CA, US (10G) | 877 Mbits/sec   | 805 Mbits/sec   | 63.8 ms
+Leaseweb        | NYC, NY, US (10G)         | 918 Mbits/sec   | 934 Mbits/sec   | 1.34 ms
+Edgoo           | Sao Paulo, BR (1G)        | 819 Mbits/sec   | 388 Mbits/sec   | 125 ms
