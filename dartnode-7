@@ -1,0 +1,63 @@
+Fri Jul 25 14:51:32 UTC 2025
+
+Basic System Information:
+---------------------------------
+Uptime     : 0 days, 0 hours, 5 minutes
+Processor  : Intel(R) Xeon(R) CPU E5-2697A v4 @ 2.60GHz
+CPU cores  : 1 @ 2599.996 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ✔ Enabled
+RAM        : 961.6 MiB
+Swap       : 0.0 KiB
+Disk       : 9.6 GiB
+Distro     : Ubuntu 24.04.2 LTS
+Kernel     : 6.8.0-64-generic
+VM Type    : KVM
+IPv4/IPv6  : ✔ Online / ✔ Online
+
+IPv6 Network Information:
+---------------------------------
+ISP        : Snaju Development
+ASN        : AS399646 Snaju Development
+Host       : Snaju Development
+Location   : Houston, Texas (TX)
+Country    : United States
+
+fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/sda1):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 10.01 MB/s    (2.5k) | 160.79 MB/s   (2.5k)
+Write      | 10.04 MB/s    (2.5k) | 161.64 MB/s   (2.5k)
+Total      | 20.05 MB/s    (5.0k) | 322.44 MB/s   (5.0k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 1.32 GB/s     (2.5k) | 2.78 GB/s     (2.7k)
+Write      | 1.39 GB/s     (2.7k) | 2.97 GB/s     (2.9k)
+Total      | 2.72 GB/s     (5.3k) | 5.76 GB/s     (5.6k)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 286 Mbits/sec   | 371 Mbits/sec   | 102 ms
+Eranium         | Amsterdam, NL (100G)      | 317 Mbits/sec   | 789 Mbits/sec   | --
+Uztelecom       | Tashkent, UZ (10G)        | 289 Mbits/sec   | 780 Mbits/sec   | 199 ms
+Leaseweb        | Singapore, SG (10G)       | 291 Mbits/sec   | 593 Mbits/sec   | 202 ms
+Clouvider       | Los Angeles, CA, US (10G) | 752 Mbits/sec   | 252 Mbits/sec   | 38.2 ms
+Leaseweb        | NYC, NY, US (10G)         | 542 Mbits/sec   | 500 Mbits/sec   | 38.7 ms
+Edgoo           | Sao Paulo, BR (1G)        | 300 Mbits/sec   | 871 Mbits/sec   | 145 ms
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 387 Mbits/sec   | 336 Mbits/sec   | 102 ms
+Eranium         | Amsterdam, NL (100G)      | 246 Mbits/sec   | 698 Mbits/sec   | 125 ms
+Uztelecom       | Tashkent, UZ (10G)        | 192 Mbits/sec   | 792 Mbits/sec   | 199 ms
+Leaseweb        | Singapore, SG (10G)       | 286 Mbits/sec   | 287 Mbits/sec   | 202 ms
+Clouvider       | Los Angeles, CA, US (10G) | 739 Mbits/sec   | 234 Mbits/sec   | --
+Leaseweb        | NYC, NY, US (10G)         | 554 Mbits/sec   | 380 Mbits/sec   | 38.6 ms
+Edgoo           | Sao Paulo, BR (1G)        | 341 Mbits/sec   | 851 Mbits/sec   | 145 ms
+
